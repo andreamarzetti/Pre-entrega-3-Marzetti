@@ -1,0 +1,39 @@
+/* Media queries para mobile */
+@media (max-width:767px) {
+    .imagenes-inicio,
+    .contenedor-2,
+    .imagenes-productos,
+    .imagenes-new-in,
+    .imagenes-liquidacion {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .contenedor-3 {
+      grid-template-columns: 1fr;
+      padding: 20px;
+    }
+  
+    .hijo {
+      margin-bottom: 20px;
+    }
+  
+    .mi-cuenta {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  /* Media queries para tablet */
+  @media (max-width:1024px) {
+    .imagenes-inicio,
+    .contenedor-2,
+    .imagenes-productos,
+    .imagenes-new-in,
+    .imagenes-liquidacion {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  

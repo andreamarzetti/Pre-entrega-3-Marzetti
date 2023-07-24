@@ -1,0 +1,23 @@
+/* Importar archivos */
+@import '../utilidades/variables.scss';
+@import "../utilidades/mixin.scss";
+@import "../utilidades/extend.scss";
+@import "../utilidades/nesting.scss";
+@import "../utilidades/import.scss";
+@import "../utilidades/animaciones.scss";
+@import "../utilidades/media-queries.scss";
+ 
+/* Estilos de reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  background-color: $color2;
+}
+
+
+
